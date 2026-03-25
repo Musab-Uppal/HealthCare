@@ -1,8 +1,8 @@
 function CaseStudySection() {
   return (
-    <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-10">
+    <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-10">
       <div className="flex flex-col overflow-hidden rounded-[3rem] bg-white shadow-xl lg:flex-row">
-        <div className="relative h-[420px] lg:h-auto lg:w-1/2">
+        <div className="relative h-[340px] sm:h-[420px] lg:h-auto lg:w-1/2">
           <img
             className="h-full w-full object-cover"
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuARDdPB8W9uc4nsRiXPuzFe3Wsq4mbUelUl4u9tKoIwDe6RglCNauNH6FzI0V4v0aZ6x_NVNYQyWUzG_x0mDrHTiJsMdu5Ax7Yg7QJbG1f6nmgjU911zwt73eti-6t8z3YzQ4zEWZLOKrqc57vL46dYCEs7YJfFCdUx7OW5w95fLOGN5MQaM7jwzVLqN62nLra0CQZj17A77KX2SW1vF4xYyl_fHmMfUElaTegE3yTEwLP4nlIW252mheZiLkA30HTG9OJtpKMo6cRJ"
@@ -19,11 +19,11 @@ function CaseStudySection() {
           </div>
         </div>
 
-        <div className="flex flex-col justify-center space-y-7 p-10 lg:w-1/2 lg:p-14">
-          <h2 className="font-headline text-3xl font-bold tracking-tight text-on-surface md:text-4xl">
+        <div className="flex flex-col justify-center space-y-6 p-8 sm:p-10 lg:w-1/2 lg:p-14">
+          <h2 className="font-headline text-2xl font-bold tracking-tight text-on-surface sm:text-3xl md:text-4xl">
             The Journey of David Miller
           </h2>
-          <div className="space-y-6 leading-relaxed text-on-surface-variant">
+          <div className="space-y-5 text-sm leading-relaxed text-on-surface-variant sm:text-base">
             <p>
               After years of chronic back pain that limited his mobility to less
               than 15 minutes of standing, David Miller came to Clinical

@@ -1,12 +1,12 @@
 function AppointmentSection() {
   return (
     <section id="services" className="bg-surface px-4 py-20 sm:px-6 lg:px-10">
-      <div className="mx-auto grid max-w-7xl grid-cols-1 items-start gap-12 lg:grid-cols-12">
-        <div className="sticky top-32 lg:col-span-5">
-          <h2 className="mb-5 font-headline text-3xl font-extrabold text-primary md:text-4xl">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 items-start gap-10 lg:grid-cols-12 lg:gap-12">
+        <div className="lg:sticky lg:top-32 lg:col-span-5">
+          <h2 className="mb-4 font-headline text-2xl font-extrabold text-primary sm:text-3xl md:text-4xl">
             Begin Your Journey to Wellness
           </h2>
-          <p className="mb-8 text-base leading-relaxed text-on-surface-variant md:text-lg">
+          <p className="mb-7 text-sm leading-relaxed text-on-surface-variant sm:text-base md:text-lg">
             Fill out our secure appointment request form. Our patient
             coordination team will contact you within 4 business hours to
             finalize your visit.
@@ -44,7 +44,7 @@ function AppointmentSection() {
         </div>
 
         <div id="appointment-form" className="lg:col-span-7">
-          <div className="rounded-[2.5rem] border border-outline-variant/10 bg-surface-container-lowest p-7 shadow-2xl md:p-10">
+          <div className="rounded-[2.5rem] border border-outline-variant/10 bg-surface-container-lowest p-6 shadow-2xl sm:p-7 md:p-10">
             <h3 className="mb-7 font-headline text-xl font-bold text-on-surface md:text-2xl">
               Request an Appointment
             </h3>

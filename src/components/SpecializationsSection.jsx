@@ -5,12 +5,12 @@ function SpecializationsSection() {
       className="bg-surface-container-low px-4 py-20 sm:px-6 lg:px-10"
     >
       <div className="mx-auto max-w-7xl">
-        <div className="mb-12 flex flex-col justify-between gap-6 md:flex-row md:items-end">
+        <div className="mb-10 flex flex-col justify-between gap-5 md:mb-12 md:flex-row md:items-end">
           <div>
             <h2 className="mb-3 font-headline text-2xl font-extrabold text-on-surface md:text-3xl">
               Our Specializations
             </h2>
-            <p className="max-w-md text-on-surface-variant">
+            <p className="max-w-md text-sm text-on-surface-variant md:text-base">
               Comprehensive medical solutions delivered by leading experts using
               cutting-edge diagnostic technology.
             </p>
@@ -21,8 +21,8 @@ function SpecializationsSection() {
           </button>
         </div>
 
-        <div className="grid grid-cols-1 gap-5 md:grid-cols-4">
-          <div className="group flex cursor-pointer flex-col justify-between rounded-[2rem] border border-outline-variant/5 bg-surface-container-lowest p-8 transition-all hover:shadow-xl md:col-span-2 md:row-span-2">
+        <div className="grid grid-cols-1 gap-4 md:gap-5 md:grid-cols-4">
+          <div className="group flex cursor-pointer flex-col justify-between rounded-[2rem] border border-outline-variant/5 bg-surface-container-lowest p-6 transition-all hover:shadow-xl sm:p-8 md:col-span-2 md:row-span-2">
             <div>
               <div className="mb-8 flex h-14 w-14 items-center justify-center rounded-2xl bg-primary-fixed text-on-primary-fixed transition-transform group-hover:scale-110">
                 <span className="material-symbols-outlined text-3xl">
@@ -32,7 +32,7 @@ function SpecializationsSection() {
               <h3 className="mb-3 font-headline text-xl font-bold text-on-surface">
                 General Medicine
               </h3>
-              <p className="mb-6 text-on-surface-variant">
+              <p className="mb-6 text-sm text-on-surface-variant md:text-base">
                 Personalized primary care focused on preventative health and
                 long-term wellness strategies for all life stages.
               </p>
@@ -53,7 +53,7 @@ function SpecializationsSection() {
             </ul>
           </div>
 
-          <div className="group rounded-[2rem] border border-outline-variant/5 bg-white p-7 transition-colors hover:bg-primary">
+          <div className="group rounded-[2rem] border border-outline-variant/5 bg-white p-6 transition-colors hover:bg-primary sm:p-7">
             <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-xl bg-surface-container text-primary transition-colors group-hover:bg-white/20 group-hover:text-white">
               <span className="material-symbols-outlined">child_care</span>
             </div>
@@ -65,7 +65,7 @@ function SpecializationsSection() {
             </p>
           </div>
 
-          <div className="group rounded-[2rem] border border-outline-variant/5 bg-white p-7 transition-colors hover:bg-primary">
+          <div className="group rounded-[2rem] border border-outline-variant/5 bg-white p-6 transition-colors hover:bg-primary sm:p-7">
             <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-xl bg-surface-container text-primary transition-colors group-hover:bg-white/20 group-hover:text-white">
               <span className="material-symbols-outlined">neurology</span>
             </div>
@@ -77,7 +77,7 @@ function SpecializationsSection() {
             </p>
           </div>
 
-          <div className="flex items-center gap-6 rounded-[2rem] border border-outline-variant/5 bg-surface-container-highest p-7 md:col-span-2">
+          <div className="flex items-center gap-5 rounded-[2rem] border border-outline-variant/5 bg-surface-container-highest p-6 sm:p-7 md:col-span-2">
             <div className="hidden h-32 w-32 shrink-0 overflow-hidden rounded-2xl sm:block">
               <img
                 alt="Laboratory"
