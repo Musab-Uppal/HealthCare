@@ -13,15 +13,13 @@ const ingredients = [
     name: "Bergamot Peel",
     detail:
       "Cold-pressed Calabrian bergamot lifts the opening with a bright, polished citrus edge.",
-    image:
-      "https://images.unsplash.com/photo-1605217613423-0ff0f7b2f261?auto=format&fit=crop&w=900&q=80",
+    image: "/images/bergamot-peel.jpg",
   },
   {
     name: "Damask Rose",
     detail:
       "Hand-harvested petals create a soft floral haze that blends with the mist accord.",
-    image:
-      "https://images.unsplash.com/photo-1518709268805-4e9042af2176?auto=format&fit=crop&w=900&q=80",
+    image: "/images/damask-rose.jpg",
   },
   {
     name: "Cedarwood",
